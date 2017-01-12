@@ -54,14 +54,14 @@
 .f-flac-st,.f-flac-start,.f-flex-align-content-start {-webkit-align-content: flex-start; align-content: flex-start;}
 .f-flac-e,.f-flac-end,.f-flex-align-content-end {-webkit-align-content: flex-end; align-content: flex-end;}
 .f-flac-c,.f-flac-center,.f-flex-align-content-center {-webkit-align-content: center; align-content: center;}
-.f-flac-sb,.f-flac-space-between,.f-flex-align-content-between {-webkit-align-content: space-between; align-content: space-space-between;}
-.f-flac-sa,.f-flac-space-around,.f-flex-align-content-around {-webkit-align-content: space-around; align-content: space-around;}
+.f-flac-b,.f-flac-sb,.f-flac-space-between,.f-flex-align-content-between {-webkit-align-content: space-between; align-content: space-space-between;}
+.f-flac-a,.f-flac-sa,.f-flac-space-around,.f-flex-align-content-around {-webkit-align-content: space-around; align-content: space-around;}
 
-.f-flj-s,.f-flj-stretch,.f-flex-justify-content-stretch {-webkit-justify-content: stretch; justify-content: stretch;}
-.f-flj-st,.f-flj-start,.f-flex-justify-content-start  {-webkit-justify-content: flex-start; justify-content: flex-start;}
-.f-flj-e,.f-flj-end,.f-flex-justify-content-end  {-webkit-justify-content: flex-end; justify-content: flex-end;}
-.f-flj-c,.f-flj-center,.f-flex-justify-content-center  {-webkit-justify-content: center; justify-content: center;}
-.f-flj-b,.f-flj-baseline,.f-flex-justify-content-baseline  {-webkit-justify-content: baseline; justify-content: baseline;}
+.f-flj-st,.f-fljc-st,.f-flj-start,.f-flex-justify-content-start  {-webkit-justify-content: flex-start; justify-content: flex-start;}
+.f-flj-e,.f-fljc-e,.f-flj-end,.f-flex-justify-content-end  {-webkit-justify-content: flex-end; justify-content: flex-end;}
+.f-flj-c,.f-fljc-c,.f-flj-center,.f-flex-justify-content-center  {-webkit-justify-content: center; justify-content: center;}
+.f-flj-a,.f-flj-sa,.f-fljc-sa,.f-flj-space-around,.f-flex-justify-content-around  {-webkit-justify-content: space-around; justify-content: space-around;}
+.f-flj-b,.f-flj-sb,.f-fljc-sb,.f-flj-space-between,.f-flex-justify-content-between  {-webkit-justify-content: space-between; justify-content: space-between;}
 
 .f-flo,.f-flex-order {-webkit-order: -1; order: -1;}
 .f-flo0,.f-flex-order0 {-webkit-order: 0; order: 0;}
