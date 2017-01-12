@@ -57,6 +57,12 @@
 .f-flac-sb,.f-flac-space-between,.f-flex-align-content-between {-webkit-align-content: space-between; align-content: space-space-between;}
 .f-flac-sa,.f-flac-space-around,.f-flex-align-content-around {-webkit-align-content: space-around; align-content: space-around;}
 
+.f-flj-s,.f-flj-stretch,.f-flex-justify-content-stretch {-webkit-justify-content: stretch; justify-content: stretch;}
+.f-flj-st,.f-flj-start,.f-flex-justify-content-start  {-webkit-justify-content: flex-start; justify-content: flex-start;}
+.f-flj-e,.f-flj-end,.f-flex-justify-content-end  {-webkit-justify-content: flex-end; justify-content: flex-end;}
+.f-flj-c,.f-flj-center,.f-flex-justify-content-center  {-webkit-justify-content: center; justify-content: center;}
+.f-flj-b,.f-flj-baseline,.f-flex-justify-content-baseline  {-webkit-justify-content: baseline; justify-content: baseline;}
+
 .f-flo,.f-flex-order {-webkit-order: -1; order: -1;}
 .f-flo0,.f-flex-order0 {-webkit-order: 0; order: 0;}
 .f-flo1,.f-flex-order1 {-webkit-order: 1; order: 1;}
