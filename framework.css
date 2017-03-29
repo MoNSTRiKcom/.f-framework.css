@@ -23,7 +23,7 @@
 .f-bc, .f-block {display: block;}
 .f-ib, .f-iblock {display: inline-block; vertical-align: top; margin-left: -0.25em;}
 
-.f-hid, .f-oh {overflow: hidden;}
+.f-hid, .f-oh, .f-overflow-hidden {overflow: hidden;}
 .f-none, .f-h, .f-hide {display: none;}
 .f-both {clear: both;}
 .f-r {float: right;}
@@ -36,7 +36,16 @@
 
 .f-vam {vertical-align: middle;}
 
-.f-fl,.f-flex {display: flex; display: -webkit-flex;}
+.f-fl,.f-flex {display: flex; display: -webkit-flex; display: -webkit-box;}
+.f-flw,.f-flw,.f-flex-wrap {-webkit-flex-wrap: wrap; flex-wrap: wrap;}
+.f-flwr,.f-flw-r,.f-flex-wrap-reverse {-webkit-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse;}
+.f-flwn,.f-flw0,.f-flw-n,.f-flex-wrap-nowrap {-webkit-flex-wrap: nowrap; flex-wrap: nowrap;}
+
+.f-fld-r,.f-flex-direction-row {-webkit-flex-direction: row; flex-direction: row;}
+.f-fld-rr,.f-flex-direction-row-reverse {-webkit-flex-direction: row-reverse; flex-direction: row-reverse;}
+.f-fld-c,.f-flex-direction-column {-webkit-flex-direction: column; flex-direction: column;}
+.f-fld-cr,.f-flex-direction-column-reverse {-webkit-flex-direction: column-reverse; flex-direction: column-reverse;}
+
 .f-fla-s,.f-fla-stretch,.f-flex-align-items-stretch {-webkit-align-items: stretch; align-items: stretch;}
 .f-fla-st,.f-fla-start.f-flex-align-items-start {-webkit-align-items: flex-start; align-items: flex-start;}
 .f-fla-e,.f-fla-end.f-flex-align-items-end {-webkit-align-items: flex-end; align-items: flex-end;}
@@ -529,6 +538,28 @@
 .f-minw90 {min-width: 90%;}
 .f-minw100 {min-width: 100%;}
 
+.f-maxw100px {max-width: 100px;}
+.f-maxw200px {max-width: 200px;}
+.f-maxw300px {max-width: 300px;}
+.f-maxw400px {max-width: 400px;}
+.f-maxw500px {max-width: 500px;}
+.f-maxw600px {max-width: 600px;}
+.f-maxw700px {max-width: 700px;}
+.f-maxw800px {max-width: 800px;}
+.f-maxw900px {max-width: 900px;}
+.f-maxw1000px {max-width: 1000px;}
+
+.f-minw100px {min-width: 100px;}
+.f-minw200px {min-width: 200px;}
+.f-minw300px {min-width: 300px;}
+.f-minw400px {min-width: 400px;}
+.f-minw500px {min-width: 500px;}
+.f-minw600px {min-width: 600px;}
+.f-minw700px {min-width: 700px;}
+.f-minw800px {min-width: 800px;}
+.f-minw900px {min-width: 900px;}
+.f-minw1000px {min-width: 1000px;}
+
 
 .f-h10 {height: 10%;}
 .f-h15 {height: 15%;}
@@ -698,6 +729,28 @@
 .f-minh90 {min-height: 90%;}
 .f-minh100 {min-height: 100%;}
 
+.f-maxh100px {max-height: 100px;}
+.f-maxh200px {max-height: 200px;}
+.f-maxh300px {max-height: 300px;}
+.f-maxh400px {max-height: 400px;}
+.f-maxh500px {max-height: 500px;}
+.f-maxh600px {max-height: 600px;}
+.f-maxh700px {max-height: 700px;}
+.f-maxh800px {max-height: 800px;}
+.f-maxh900px {max-height: 900px;}
+.f-maxh1000px {max-height: 1000px;}
+
+.f-minh100px {min-height: 100px;}
+.f-minh200px {min-height: 200px;}
+.f-minh300px {min-height: 300px;}
+.f-minh400px {min-height: 400px;}
+.f-minh500px {min-height: 500px;}
+.f-minh600px {min-height: 600px;}
+.f-minh700px {min-height: 700px;}
+.f-minh800px {min-height: 800px;}
+.f-minh900px {min-height: 900px;}
+.f-minh1000px {min-height: 1000px;}
+
 
 .f-r3 {border-radius: 3px;}
 .f-r4 {border-radius: 4px;}
@@ -756,3 +809,27 @@
 .f-op-h9:hover,
 .f-op-h10:hover
 {opacity: 1 !important;}
+
+.f-blur1 { filter: blur(1px); -webkit-filter: blur(1px); -moz-filter: blur(1px); -o-filter: blur(1px); -ms-filter: blur(1px);}
+.f-blur2 { filter: blur(2px); -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px);}
+.f-blur3 { filter: blur(3px); -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px);}
+.f-blur4 { filter: blur(4px); -webkit-filter: blur(4px); -moz-filter: blur(4px); -o-filter: blur(4px); -ms-filter: blur(4px);}
+.f-blur5 { filter: blur(5px); -webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px);}
+
+.f-rotate360, .f-rotate360-hover { transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -moz-transform: rotate(360deg); }
+.f-rotate330, .f-rotate330-hover { transform: rotate(330deg); -webkit-transform: rotate(330deg); -o-transform: rotate(330deg); -moz-transform: rotate(330deg); }
+.f-rotate315, .f-rotate315-hover { transform: rotate(315deg); -webkit-transform: rotate(315deg); -o-transform: rotate(315deg); -moz-transform: rotate(315deg); }
+.f-rotate300, .f-rotate300-hover { transform: rotate(300deg); -webkit-transform: rotate(300deg); -o-transform: rotate(300deg); -moz-transform: rotate(300deg); }
+.f-rotate270, .f-rotate270-hover { transform: rotate(270deg); -webkit-transform: rotate(270deg); -o-transform: rotate(270deg); -moz-transform: rotate(270deg); }
+.f-rotate240, .f-rotate240-hover { transform: rotate(240deg); -webkit-transform: rotate(240deg); -o-transform: rotate(240deg); -moz-transform: rotate(240deg); }
+.f-rotate225, .f-rotate225-hover { transform: rotate(225deg); -webkit-transform: rotate(225deg); -o-transform: rotate(225deg); -moz-transform: rotate(225deg); }
+.f-rotate210, .f-rotate210-hover { transform: rotate(210deg); -webkit-transform: rotate(210deg); -o-transform: rotate(210deg); -moz-transform: rotate(210deg); }
+.f-rotate180, .f-rotate180-hover { transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); -moz-transform: rotate(180deg); }
+.f-rotate150, .f-rotate150-hover { transform: rotate(150deg); -webkit-transform: rotate(150deg); -o-transform: rotate(150deg); -moz-transform: rotate(150deg); }
+.f-rotate135, .f-rotate135-hover { transform: rotate(135deg); -webkit-transform: rotate(135deg); -o-transform: rotate(135deg); -moz-transform: rotate(135deg); }
+.f-rotate120, .f-rotate120-hover { transform: rotate(120deg); -webkit-transform: rotate(120deg); -o-transform: rotate(120deg); -moz-transform: rotate(120deg); }
+.f-rotate90, .f-rotate90-hover { transform: rotate(90deg); -webkit-transform: rotate(90deg); -o-transform: rotate(90deg); -moz-transform: rotate(90deg); }
+.f-rotate60, .f-rotate60-hover { transform: rotate(60deg); -webkit-transform: rotate(60deg); -o-transform: rotate(60deg); -moz-transform: rotate(60deg); }
+.f-rotate45, .f-rotate45-hover { transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -moz-transform: rotate(45deg); }
+.f-rotate30, .f-rotate30-hover { transform: rotate(30deg); -webkit-transform: rotate(30deg); -o-transform: rotate(30deg); -moz-transform: rotate(30deg); }
+.f-rotate0, .f-rotate0-hover { transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); -moz-transform: rotate(0deg); }
